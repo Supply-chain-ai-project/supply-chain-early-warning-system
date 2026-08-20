@@ -1,0 +1,27 @@
+# Secrets -- NEVER commit
+.env
+
+# Large data files
+data/dataco_supply_chain.csv
+
+# Trained model files (regenerable via train_risk_model.py)
+risk_model.pkl
+model_features.pkl
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Generated outputs
+charts/
+evaluation_results.csv
+
+# OS files
+.DS_Store
+Thumbs.db
